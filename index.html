@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="theme-light.css" id="theme-link">
+    <link rel="stylesheet" href="main.css" >
+    
+</head>
+<body>
+
+    <button onclick="setTheme('light')">Light Theme</button>
+<button onclick="setTheme('dark')">Dark Theme</button>
+    <script>
+        function setTheme(themeName) {
+  document.getElementById('theme-link').setAttribute('href', 'theme-' +
+themeName + '.css');
+}
+    </script>
+
+
+
+<div class="themes"></div>
+   
+    <div class="dark-theme">
+        <div class="info">
+            <div class="dark"> Theme </div>
+        </div>
+        <div class="definitions">
+            <div class="section27">
+                <div class="text33"> text-primary </div>
+                <div class="text34"> text-secondary </div>
+                <div class="text35"> surface-primary<br />outline </div>
+            </div>
+            <div class="section28">
+                <div class="text33"> text-primary </div>
+                <div class="text34"> text-secondary </div>
+                <div class="text35"> surface-secondary </div>
+            </div>
+            <div class="section29">
+                <div class="text33"> text-primary </div>
+                <div class="text36"> text-secondary-red </div>
+                <div class="text35"> surface-highlight-red </div>
+            </div>
+            <div class="section30">
+                <div class="text33"> text-primary </div>
+                <div class="text35"> surface-highlight-blue </div>
+            </div>
+            <div class="section31">
+                <div class="text37"> text-inverted </div>
+                <div class="text38"> surface-inverted </div>
+            </div>
+            <div class="section32">
+                <div class="text39"> link </div>
+                <div class="text40"> link-hovered </div>
+                <div class="text41"> link-pressed </div>
+                <div class="text42"> link-visited </div>
+            </div>
+            <div class="section7">
+                <div class="text11"> on-button-primary </div>
+                <div class="text12"> button-primary </div>
+            </div>
+            <div class="section8">
+                <div class="text12"> button-primary-hovered </div>
+            </div>
+            <div class="section9">
+                <div class="text12"> button-primary-pressed </div>
+            </div>
+            <div class="section33">
+                <div class="text43"> button-secondary </div>
+                <div class="text44"> button-secondary </div>
+            </div>
+            <div class="section34">
+                <div class="text44"> button-secondary-hovered (fill) </div>
+            </div>
+            <div class="section35">
+                <div class="text44"> button-secondary-pressed (fill) </div>
+            </div>
+            <div class="section36">
+                <div class="text45"> on-surface-error </div>
+                <div class="text46"> surface-ok </div>
+            </div>
+            <div class="section37">
+                <div class="text47"> text-ok </div>
+            </div>
+            <div class="section38">
+                <div class="text48"> on-surface-warning </div>
+                <div class="text49"> surface-warning </div>
+            </div>
+            <div class="section37">
+                <div class="text50"> text-warning </div>
+            </div>
+            <div class="section39">
+                <div class="text51"> on-surface-error </div>
+                <div class="text52"> surface-error </div>
+            </div>
+            <div class="section40">
+                <div class="text53"> text-error </div>
+                <div class="text54"> outline-error </div>
+            </div>
+            <div class="section18">
+                <div class="text25"> on-highlight </div>
+                <div class="text26"> highlight </div>
+            </div>
+            <div class="section41">
+                <div class="text55"> on-selected </div>
+                <div class="text56"> selected </div>
+            </div>
+            <div class="section42">
+                <div class="text56"> selected-hovered </div>
+            </div>
+            <div class="section43">
+                <div class="text56"> selected-pressed </div>
+            </div>
+            <div class="section44">
+                <div class="text57"> on-disabled </div>
+                <div class="text58"> disabled </div>
+            </div>
+            <div class="section45">
+                <div class="text59"> on-disabled-inverted </div>
+                <div class="text60"> disabled-inverted </div>
+            </div>
+            <div class="section24">
+                <div class="text33"> text-primary </div>
+                <div class="text35"> [transparent = no fill] </div>
+            </div>
+            <div class="section46">
+                <div class="text35"> transparent-hovered </div>
+            </div>
+            <div class="section47">
+                <div class="text35"> transparent-pressed </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
